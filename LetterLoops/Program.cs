@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
 
 namespace LetterLoops
 {
@@ -26,11 +23,11 @@ namespace LetterLoops
                         userOutput += userInput[i].ToString().ToLower();
                     }
                 }
-                if (userInput[i] != userInput.Length - 1)
+                if (i != userInput.Length - 1)
                 {
                     userOutput += "-";
                 }
-        }
+            }
             Console.WriteLine(userOutput);
             Console.ReadKey();
         }
