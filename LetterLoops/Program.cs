@@ -33,3 +33,22 @@ namespace LetterLoops
         }
     }
 }
+
+//Nathan's Solution
+//Console.WriteLine("Please enter a string of letters.");
+//var userInput = Console.ReadLine().ToLower();
+//var loopCount = 0;
+//var myCharacters = new List<string>();
+
+//foreach (var character in userInput)
+//    {
+//    var letterString = character.ToString().ToUpper();
+//    letterString += new string(character, loopCount);
+
+//    myCharacters.Add(letterString);
+
+//    loopCount++;
+//    }
+//    Console.Write(string.Join('-', myCharacters));
+
+ 
